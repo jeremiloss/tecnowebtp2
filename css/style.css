@@ -1,0 +1,88 @@
+body {
+  align-items: center;
+}
+
+.rh5 {
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .rh5 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .rh5 {
+    font-size: 1.2rem;
+  }
+}
+
+a:hover {
+  color: aquamarine;
+}
+
+.animgradient {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(140deg, aquamarine, blueviolet, coral, chartreuse);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+
+  }
+}
+
+
+.img-fluid {
+  width: 296px;
+  height: 257px;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h1 {
+  margin-left: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.h4 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.card-body {
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-img-top {
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  width: 100px;
+  height: 100px;
+}
+
+.h6 {
+  font-size: large;
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.9)
+}
